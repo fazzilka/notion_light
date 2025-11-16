@@ -84,8 +84,8 @@ Dockerfile    # Docker-образ backend’а
 docker-compose.yml # Поднятие backend + Postgres
 requirements.txt   # зависимости проекта
 
-
 ---
+
 ## Быстрый старт (локально, без Docker)
 
 ### 1. Клонирование репозитория и установка зависимостей
