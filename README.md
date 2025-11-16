@@ -71,18 +71,18 @@ Pet-проект: упрощённый аналог Notion на FastAPI.
 ---
 
 ##Стуктура проекта
-- app/
-  - core/       # настройки приложения (конфиг, env)
-  - db/         # база данных: Base, SessionLocal, engine
-  - models/     # SQLAlchemy-модели (Page, Tag, PageVersion, связи)
-  - schemas/    # Pydantic-схемы (DTO для запросов/ответов)
-  - crud/       # бизнес-логика и работа с БД
-  - api/        # маршруты FastAPI (v1, deps, роутеры)
-- alembic/      # миграции БД
-- .github/      # GitHub Actions (CI)
-- Dockerfile    # Docker-образ backend’а
-- docker-compose.yml # Поднятие backend + Postgres
-- requirements.txt   # зависимости проекта
+- **app/**
+  - **core/**       # настройки приложения (конфиг, env)
+  - **db/**         # база данных: Base, SessionLocal, engine
+  - **models/**     # SQLAlchemy-модели (Page, Tag, PageVersion, связи)
+  - **schemas/**    # Pydantic-схемы (DTO для запросов/ответов)
+  - **crud/**       # бизнес-логика и работа с БД
+  - **api/**        # маршруты FastAPI (v1, deps, роутеры)
+- **alembic/**      # миграции БД
+- **.github/**      # GitHub Actions (CI)
+- **Dockerfile**    # Docker-образ backend’а
+- **docker-compose.yml** # Поднятие backend + Postgres
+- **requirements.txt**   # зависимости проекта
 
 ---
 
