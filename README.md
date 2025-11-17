@@ -80,7 +80,7 @@ Pet-проект: упрощённый аналог Notion на FastAPI.
   - markdown-контент;
   - избранные (`is_favorite`) и архив (`is_archived`).
 - Теги и связь many-to-many.
-- 
+  
 ---
 
 ## Стуктура проекта
